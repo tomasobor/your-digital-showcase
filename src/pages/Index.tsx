@@ -19,7 +19,7 @@ const Index = () => {
       <header className="flex justify-between items-center">
         <span className="text-xs tracking-widest uppercase text-muted-foreground">Portfolio / 2025</span>
         <a
-          href="mailto:nesetril.ales@gmail.com"
+          href="mailto:tomas@pyri.co"
           className="text-xs tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors"
         >
           Contact
@@ -78,7 +78,7 @@ const Index = () => {
 
           <div className="mt-8 flex flex-col gap-1">
             <a
-              href="mailto:nesetril.ales@gmail.com"
+              href="mailto:tomas@pyri.co"
               className="text-sm underline underline-offset-4 decoration-muted-foreground/40 hover:decoration-foreground transition-colors w-fit"
             >
               Open to freelance
