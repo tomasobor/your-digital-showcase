@@ -20,7 +20,7 @@ const Index = () => {
         <div />
         <a
           href="mailto:tomas@pyri.co"
-          className="text-xs tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors"
+          className="text-xs tracking-widest uppercase text-foreground hover:text-foreground transition-colors"
         >
           Email
         </a>
@@ -70,7 +70,7 @@ const Index = () => {
           transition={{ delay: 0.4, duration: 0.8 }}
           className="mt-12 max-w-sm"
         >
-          <p className="text-sm leading-relaxed text-muted-foreground">
+          <p className="text-sm leading-relaxed text-foreground">
             Conceptual designer with a focus on digital products, motion, and branding —
             working with optimistic teams and founders since 2017.
           </p>
@@ -78,19 +78,19 @@ const Index = () => {
           <div className="mt-8 flex flex-col gap-1">
             <a
               href="mailto:tomas@pyri.co"
-              className="text-sm underline underline-offset-4 decoration-muted-foreground/40 hover:decoration-foreground transition-colors w-fit"
+              className="text-sm underline underline-offset-4 decoration-foreground/40 hover:decoration-foreground transition-colors w-fit"
             >
               Open to freelance
             </a>
-            <span className="text-xs text-muted-foreground">On-demand · Projects from $10K</span>
+            <span className="text-xs text-foreground">On-demand · Projects from $10K</span>
           </div>
         </motion.div>
       </main>
 
       {/* Footer */}
       <footer className="flex justify-between items-end">
-        <p className="text-xs text-muted-foreground">©2026, Tomas Obrimcak</p>
-        <p className="text-xs text-muted-foreground">Based in Remote</p>
+        <p className="text-xs text-foreground">©2026, Tomas Obrimcak</p>
+        <p className="text-xs text-foreground">Based in Remote</p>
       </footer>
     </div>
   );
