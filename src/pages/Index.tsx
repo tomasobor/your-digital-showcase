@@ -38,7 +38,7 @@ const Index = () => {
       <header role="banner" className="flex justify-between items-center">
         <div aria-hidden="true" />
         <a
-          href="mailto:tomas@pyri.co"
+          href="mailto:tomas.obrimcak@gmail.com"
           className="text-xs tracking-widest uppercase text-foreground hover:text-foreground/80 transition-colors font-bold min-h-[44px] min-w-[44px] flex items-center justify-center"
           aria-label="Send email to Tomas Obrimcak"
         >
@@ -90,7 +90,7 @@ const Index = () => {
 
           <div className="mt-6 sm:mt-8 flex flex-col gap-1">
             <a
-              href="mailto:tomas@pyri.co"
+              href="mailto:tomas.obrimcak@gmail.com"
               className="text-sm font-bold underline underline-offset-4 decoration-foreground/40 hover:decoration-foreground transition-colors w-fit min-h-[44px] flex items-center"
               aria-label="Contact Tomas about freelance work"
             >
