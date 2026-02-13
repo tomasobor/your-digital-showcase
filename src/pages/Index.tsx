@@ -72,7 +72,7 @@ const Index = () => {
         >
           <p className="text-sm leading-relaxed text-muted-foreground">
             Conceptual designer with a focus on digital products, motion, and branding —
-            working with optimistic teams and founders since 2018.
+            working with optimistic teams and founders since 2017.
           </p>
 
           <div className="mt-8 flex flex-col gap-1">
