@@ -19,7 +19,7 @@ const Index = () => {
       <header className="flex justify-between items-start">
         <div>
           <h1 className="text-sm font-semibold leading-tight tracking-tight">
-            Ales Nesetril —
+            Tomas Obrimcak —
           </h1>
           <p className="text-sm font-semibold leading-tight tracking-tight">
             Designer, Creative,{" "}
