@@ -21,23 +21,25 @@ const Index = () => {
           <h1 className="text-sm font-semibold leading-tight tracking-tight">
             Tomas Obrimcak —
           </h1>
-          <p className="text-sm font-semibold leading-tight tracking-tight">
+          <p className="text-sm font-semibold leading-tight tracking-tight whitespace-nowrap">
             Designer, Creative,{" "}
-            <span className="inline-block relative overflow-hidden align-bottom" style={{ width: "auto", minWidth: 80 }}>
-              <AnimatePresence mode="wait">
-                <motion.span
-                  key={roles[roleIndex]}
-                  initial={{ y: 20, opacity: 0 }}
-                  animate={{ y: 0, opacity: 1 }}
-                  exit={{ y: -20, opacity: 0 }}
-                  transition={{ duration: 0.3, ease: "easeInOut" }}
-                  className="inline-block"
-                >
-                  {roles[roleIndex]}
-                </motion.span>
-              </AnimatePresence>
-            </span>{" "}
-            <span className="text-muted-foreground font-normal">(+5)</span>
+            <span className="inline-flex items-baseline gap-1">
+              <span className="relative overflow-hidden inline-block align-baseline" style={{ minWidth: 80 }}>
+                <AnimatePresence mode="wait">
+                  <motion.span
+                    key={roles[roleIndex]}
+                    initial={{ y: 20, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    exit={{ y: -20, opacity: 0 }}
+                    transition={{ duration: 0.3, ease: "easeInOut" }}
+                    className="inline-block"
+                  >
+                    {roles[roleIndex]}
+                  </motion.span>
+                </AnimatePresence>
+              </span>
+              <span className="text-muted-foreground font-normal">(+5)</span>
+            </span>
           </p>
         </div>
 
