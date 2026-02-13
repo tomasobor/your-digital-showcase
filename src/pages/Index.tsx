@@ -41,23 +41,26 @@ const Index = () => {
 
           <div className="mt-6 flex items-baseline gap-3">
             <div className="h-px w-8 bg-foreground opacity-30 shrink-0 translate-y-[-2px]" />
-            <p className="text-sm text-muted-foreground">
+            <p className="text-sm text-muted-foreground whitespace-nowrap">
               Designer, Creative,{" "}
-              <span className="relative overflow-hidden inline-block align-baseline text-foreground" style={{ minWidth: 70 }}>
+              <span
+                className="relative inline-block align-bottom text-foreground overflow-hidden"
+                style={{ width: 80, height: '1.25em' }}
+              >
                 <AnimatePresence mode="wait">
                   <motion.span
                     key={roles[roleIndex]}
-                    initial={{ y: 16, opacity: 0 }}
+                    initial={{ y: '100%', opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
-                    exit={{ y: -16, opacity: 0 }}
+                    exit={{ y: '-100%', opacity: 0 }}
                     transition={{ duration: 0.25, ease: "easeInOut" }}
-                    className="inline-block"
+                    className="absolute left-0 top-0 leading-[1.25em]"
                   >
                     {roles[roleIndex]}
                   </motion.span>
                 </AnimatePresence>
-              </span>
-              <span className="text-muted-foreground"> +5</span>
+              </span>{" "}
+              <span className="text-muted-foreground">+5</span>
             </p>
           </div>
         </motion.div>
