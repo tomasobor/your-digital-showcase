@@ -59,8 +59,7 @@ const Index = () => {
                     {roles[roleIndex]}
                   </motion.span>
                 </AnimatePresence>
-              </span>{" "}
-              <span className="text-muted-foreground">+5</span>
+              </span>
             </p>
           </div>
         </motion.div>
