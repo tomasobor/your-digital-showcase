@@ -17,12 +17,12 @@ const Index = () => {
     <div className="min-h-screen flex flex-col px-6 sm:px-10 md:px-16 py-8 bg-background text-foreground">
       {/* Top bar */}
       <header className="flex justify-between items-center">
-        <span className="text-xs tracking-widest uppercase text-muted-foreground">Portfolio / 2025</span>
+        <div />
         <a
           href="mailto:tomas@pyri.co"
           className="text-xs tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors"
         >
-          Contact
+          Email
         </a>
       </header>
 
