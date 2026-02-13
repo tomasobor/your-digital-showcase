@@ -22,7 +22,7 @@ const Index = () => {
           href="mailto:tomas@pyri.co"
           className="text-xs tracking-widest uppercase text-foreground hover:text-foreground transition-colors font-bold"
         >
-          Email
+          tomas@pyri.co
         </a>
       </header>
 
