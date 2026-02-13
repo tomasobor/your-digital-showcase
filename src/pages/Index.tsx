@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const roles = ["Builder", "Metalhead", "Skater", "Explorer", "Gamer", "Go-Getter"];
+const roles = ["Leader", "Storyteller", "Strategist", "Maker", "Visionary"];
 
 const Index = () => {
   const [roleIndex, setRoleIndex] = useState(0);
@@ -41,11 +41,11 @@ const Index = () => {
 
           <div className="mt-6 flex items-baseline gap-3">
             <div className="h-px w-8 bg-foreground opacity-30 shrink-0 translate-y-[-2px]" />
-            <p className="text-sm text-muted-foreground whitespace-nowrap">
+            <p className="text-sm text-foreground whitespace-nowrap">
               Designer, Creative,{" "}
               <span
                 className="relative inline-block align-bottom text-foreground overflow-hidden"
-                style={{ width: 90, height: '1.25em' }}
+                style={{ width: 85, height: '1.25em' }}
               >
                 <AnimatePresence mode="wait">
                   <motion.span
