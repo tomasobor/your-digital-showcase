@@ -90,7 +90,7 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="flex justify-between items-end">
-        <p className="text-xs text-muted-foreground">©2025, TO.</p>
+        <p className="text-xs text-muted-foreground">©2026, Tomas Obrimcak</p>
         <p className="text-xs text-muted-foreground">Based in Remote</p>
       </footer>
     </div>
