@@ -45,7 +45,7 @@ const Index = () => {
               Designer, Creative,{" "}
               <span
                 className="relative inline-block align-bottom text-foreground overflow-hidden"
-                style={{ width: 80, height: '1.25em' }}
+                style={{ width: 90, height: '1.25em' }}
               >
                 <AnimatePresence mode="wait">
                   <motion.span
@@ -91,7 +91,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="flex justify-between items-end">
         <p className="text-xs text-muted-foreground">©2025, TO.</p>
-        <p className="text-xs text-muted-foreground">Based in CZ</p>
+        <p className="text-xs text-muted-foreground">Based in Remote</p>
       </footer>
     </div>
   );
